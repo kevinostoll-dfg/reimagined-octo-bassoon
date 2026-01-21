@@ -1,0 +1,94 @@
+{
+  "test_cases": [
+    {
+      "question": "What is AL GORE connected to?",
+      "expected_phrases": ["James A. Bell", "Timothy D. Cook", "Securities Exchange Act"],
+      "expected_answer": "AL GORE is connected to James A. Bell, Timothy D. Cook, and Securities Exchange Act",
+      "type": "Relation",
+      "expected_tool": "graph_search",
+      "complexity": "medium",
+      "pass_threshold": 0.7,
+      "weight": 1.0
+    },
+    {
+      "question": "Who is the CEO of Apple?",
+      "expected_phrases": ["No information available", "empty result", "Tim Cook"],
+      "type": "Missing Data Handling",
+      "complexity": "low",
+      "pass_threshold": 0.6,
+      "weight": 1.0
+    },
+    {
+      "question": "What statements mention 'revenue'?",
+      "expected_phrases": ["revenue", "statement"],
+      "expected_answer": "The database contains statements mentioning revenue from various companies, primarily Tesla and NVIDIA. These statements cover revenue-related topics including automotive revenue growth, FSD subscription trends, data center revenue, and quarterly revenue guidance discussions.",
+      "type": "Content Search",
+      "expected_tool": "graph_search",
+      "complexity": "medium",
+      "pass_threshold": 0.6,
+      "weight": 1.0
+    },
+    {
+      "question": "What risks are associated with TSLA?",
+      "expected_phrases": ["risk", "TSLA", "Tesla"],
+      "expected_answer": "Tesla (TSLA) faces several key risks including financial and operational risks such as earnings misses, revenue decline, balance sheet pressure, and high valuation metrics. Market risks include European sales decline and competitive pressures. Regulatory risks involve legal challenges and regulatory hurdles for robotaxi services.",
+      "type": "Graph Relations",
+      "expected_tool": "graph_search",
+      "complexity": "medium",
+      "pass_threshold": 0.6,
+      "weight": 1.0
+    },
+    {
+      "question": "Find documents about Tesla revenue discussions",
+      "expected_phrases": ["Tesla", "revenue"],
+      "expected_answer": "Found documents related to Tesla revenue discussions in the vector database. The documents include Tesla Financial Statistics with revenue metrics, quarterly revenue growth data, financial analysis documents, and discussions about Tesla's revenue streams and financial performance.",
+      "type": "Semantic Search",
+      "expected_tool": "milvus_search",
+      "complexity": "medium",
+      "pass_threshold": 0.6,
+      "weight": 1.0
+    },
+    {
+      "question": "What did executives say about Tesla's financial performance?",
+      "expected_phrases": ["Tesla", "financial", "executive"],
+      "expected_answer": "Tesla executives commented on the company's financial performance, focusing on profitability, cash flow, and strategic decisions. Elon Musk highlighted that Tesla remains profitable despite industry challenges. CFO Vaibhav Taneja mentioned record operating cash flow and discussed revenue growth, financing incentives, and strategic accessibility programs.",
+      "type": "Hybrid Query",
+      "expected_tools": ["graph_search", "milvus_search"],
+      "complexity": "high",
+      "pass_threshold": 0.6,
+      "weight": 1.0
+    },
+    {
+      "question": "What statements did Elon Musk make mentioning Tesla?",
+      "expected_phrases": ["Elon Musk", "Tesla", "statement"],
+      "type": "Multi-hop Graph Query",
+      "expected_tool": "graph_search",
+      "complexity": "high",
+      "pass_threshold": 0.7,
+      "weight": 1.0
+    },
+    {
+      "question": "What is the capital of Mars?",
+      "expected_phrases": ["no information", "not found", "unavailable", "don't know"],
+      "type": "Out-of-Scope Query",
+      "complexity": "low",
+      "pass_threshold": 0.6,
+      "weight": 0.5
+    }
+  ],
+  "evaluation": {
+    "semantic_similarity_weight": 0.3,
+    "rouge_weight": 0.2,
+    "keyword_coverage_weight": 0.2,
+    "llm_grade_weight": 0.2,
+    "answer_length_weight": 0.05,
+    "hallucination_weight": 0.05,
+    "default_pass_threshold": 0.6
+  },
+  "performance": {
+    "max_latency_seconds": 30.0,
+    "target_accuracy": 0.8,
+    "warn_on_slow_queries": true
+  }
+}
+

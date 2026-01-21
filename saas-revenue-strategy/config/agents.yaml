@@ -1,0 +1,49 @@
+# Agent Configuration Parameters
+
+knowledge_miner:
+  name: "Knowledge Mining Agent"
+  description: "Datamines websites, Substack publications, and internet resources"
+  
+  # Mining parameters
+  max_depth: 2
+  max_pages_per_source: 50
+  crawl_delay: 1.0  # seconds between requests
+  
+  # Processing parameters
+  chunk_size: 1024
+  chunk_overlap: 200
+  
+  # LLM parameters
+  model: "qwen/qwen3-max"
+  temperature: 0.3
+  max_tokens: 2048
+  
+  # Embedding parameters
+  embedding_model: "qwen/qwen3-embedding-8b"
+  batch_size: 32
+
+query_agent:
+  name: "Query & Research Agent"
+  description: "Retrieves and synthesizes research from the knowledge base"
+  
+  # Retrieval parameters
+  top_k: 5
+  similarity_threshold: 0.7
+  hybrid_search_alpha: 0.5  # 0=dense only, 1=sparse only, 0.5=balanced
+  
+  # LLM parameters
+  model: "qwen/qwen3-max"
+  temperature: 0.7
+  max_tokens: 4096
+  enable_thinking: true
+
+  # Embedding parameters
+  embedding_model: "qwen/qwen3-embedding-8b"
+  
+  # Web research parameters
+  enable_web_research: true
+  web_search_results: 3
+  
+  # Response parameters
+  include_citations: true
+  format_markdown: true

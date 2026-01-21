@@ -1,0 +1,20 @@
+# Backups Directory
+
+This directory stores Milvus vector database snapshots.
+
+## Usage
+
+Backups are created with:
+```bash
+python scripts/backup_vector_db.py
+```
+
+Backups are restored with:
+```bash
+python scripts/restore_vector_db.py --input ./backups/milvus_snapshot.tar.gz
+```
+
+## Git Storage
+
+Vector database snapshots can be versioned in Git for reproducibility.
+However, be mindful of file sizes and Git LFS usage for large snapshots.

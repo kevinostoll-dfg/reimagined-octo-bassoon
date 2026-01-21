@@ -1,0 +1,36 @@
+# Environment files
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Docker volumes
+volumes/
+
+# Temporary files
+temp_backup/
+temp_restore/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backups (optional - uncomment if you don't want to commit snapshots)
+# backups/*.tar.gz

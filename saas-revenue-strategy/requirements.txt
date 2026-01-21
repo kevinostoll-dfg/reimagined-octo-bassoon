@@ -1,0 +1,30 @@
+# Core RAG Framework
+llama-index>=0.10.0
+llama-index-core>=0.10.0
+llama-index-llms-openai>=0.1.0
+llama-index-llms-openai-like
+llama-index-embeddings-openai>=0.1.0
+llama-index-vector-stores-milvus>=0.1.0
+
+# Vector Database
+pymilvus>=2.4.0
+
+# LLM and Embeddings (via OpenAI-compatible API)
+openai>=1.0.0
+
+# Web Research
+tavily-python>=0.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# CLI and Display
+rich>=13.0.0
+click>=8.1.0
+
+# Type Hints
+typing-extensions>=4.0.0

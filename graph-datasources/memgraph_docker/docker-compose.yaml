@@ -1,0 +1,30 @@
+services:
+  memgraphdb:
+    image: memgraph/memgraph:latest
+    container_name: memgraphdb
+    ports:
+      - "7687:7687"  # Bolt protocol
+      - "7444:7444"  # HTTP API
+    volumes:
+      - memgraph_data:/var/lib/memgraph
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mg_client", "--host", "localhost", "--port", "7687", "--execute", "SHOW DATABASES"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  memgraph-lab:
+    image: memgraph/lab:latest
+    container_name: memgraph-lab
+    ports:
+      - "3000:3000"
+    environment:
+      - QUICK_CONNECT_MG_HOST=memgraphdb
+      - QUICK_CONNECT_MG_PORT=7687
+    depends_on:
+      - memgraphdb
+    restart: unless-stopped
+
+volumes:
+  memgraph_data:

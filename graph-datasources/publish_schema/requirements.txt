@@ -1,0 +1,8 @@
+# Graph database
+GQLAlchemy>=1.8.0
+
+# DragonFly/Redis client
+redis>=5.0.0
+
+# Environment variables
+python-dotenv>=1.0.0

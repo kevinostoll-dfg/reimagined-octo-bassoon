@@ -1,0 +1,14 @@
+# Core dependencies for v3.0 prototype
+llama-index-core>=0.10.0
+python-dotenv>=1.0.0
+openai>=2.0.0
+google-cloud-storage>=2.10.0
+
+
+# Graph database
+gqlalchemy>=1.4.0
+
+# spaCy (models downloaded from GCS at runtime)
+spacy>=3.7.0
+spacy-curated-transformers>=0.2.2  # Required for transformer models (en_core_web_trf)
+

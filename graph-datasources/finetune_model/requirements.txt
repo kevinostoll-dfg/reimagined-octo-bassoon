@@ -1,0 +1,14 @@
+transformers
+accelerate
+datasets
+sentence-transformers
+spacy
+torch
+numpy
+pandas
+scikit-learn
+peft
+safetensors
+protobuf>=5.28.3
+google-cloud-storage
+openai

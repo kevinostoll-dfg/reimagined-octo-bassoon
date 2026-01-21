@@ -1,0 +1,17 @@
+[
+    {
+      "name": "sec-bert",
+      "adapter": "sec_bert",
+      "download_from_gcs": true,
+      "local_model_dir": "./downloaded-model-sec-bert",
+      "spacy_model": "en_core_web_sm",
+      "batch_size": 64
+    },
+    {
+      "name": "trf-textcat",
+      "adapter": "spacy_textcat",
+      "spacy_model": "en_core_web_trf",
+      "label_map_path": "./label_map.json",
+      "batch_size": 32
+    }
+  ]

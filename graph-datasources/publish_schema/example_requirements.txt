@@ -1,0 +1,13 @@
+# Requirements for example_llamaindex_search.py
+# Note: This example uses GQLAlchemy (same as graph datasource services)
+# rather than LlamaIndex's Memgraph integration for consistency
+
+# Core dependencies
+python-dotenv>=1.0.0
+
+# Graph database client
+GQLAlchemy>=1.8.0
+
+# DragonFly/Redis client
+redis>=5.0.0
+

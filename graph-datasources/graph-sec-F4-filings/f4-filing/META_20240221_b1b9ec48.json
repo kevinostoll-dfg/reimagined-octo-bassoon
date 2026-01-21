@@ -1,0 +1,1260 @@
+{
+  "id": "b1b9ec48ce3f60390f8b82197e039e60",
+  "accessionNo": "0000950103-24-002563",
+  "filedAt": "2024-02-21T21:50:44-05:00",
+  "schemaVersion": "X0508",
+  "documentType": "4",
+  "periodOfReport": "2024-02-21",
+  "notSubjectToSection16": false,
+  "issuer": {
+    "cik": "1326801",
+    "name": "Meta Platforms, Inc.",
+    "tradingSymbol": "META"
+  },
+  "reportingOwner": {
+    "cik": "1548760",
+    "name": "Zuckerberg Mark",
+    "address": {
+      "street1": "C/O META PLATFORMS, INC.",
+      "street2": "1 META WAY",
+      "city": "MENLO PARK",
+      "state": "CA",
+      "zipCode": "94025"
+    },
+    "relationship": {
+      "isDirector": true,
+      "isOfficer": true,
+      "officerTitle": "COB and CEO",
+      "isTenPercentOwner": true,
+      "isOther": false
+    }
+  },
+  "nonDerivativeTable": {
+    "transactions": [
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "C",
+          "equitySwapInvolved": false
+        },
+        "amounts": {
+          "shares": 44770,
+          "pricePerShare": 0,
+          "acquiredDisposedCode": "A"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 682770
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F2"
+          ]
+        },
+        "amounts": {
+          "shares": 970,
+          "pricePerShare": 462.5499,
+          "pricePerShareFootnoteId": [
+            "F3"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 681800
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F2"
+          ]
+        },
+        "amounts": {
+          "shares": 4002,
+          "pricePerShare": 463.5813,
+          "pricePerShareFootnoteId": [
+            "F4"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 677798
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F2"
+          ]
+        },
+        "amounts": {
+          "shares": 9732,
+          "pricePerShare": 464.5925,
+          "pricePerShareFootnoteId": [
+            "F5"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 668066
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F2"
+          ]
+        },
+        "amounts": {
+          "shares": 5414,
+          "pricePerShare": 465.5145,
+          "pricePerShareFootnoteId": [
+            "F6"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 662652
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F2"
+          ]
+        },
+        "amounts": {
+          "shares": 8612,
+          "pricePerShare": 466.6549,
+          "pricePerShareFootnoteId": [
+            "F7"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 654040
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F2"
+          ]
+        },
+        "amounts": {
+          "shares": 12575,
+          "pricePerShare": 467.5422,
+          "pricePerShareFootnoteId": [
+            "F8"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 641465
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F2"
+          ]
+        },
+        "amounts": {
+          "shares": 3465,
+          "pricePerShare": 468.3528,
+          "pricePerShareFootnoteId": [
+            "F9"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 638000
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "C",
+          "equitySwapInvolved": false
+        },
+        "amounts": {
+          "shares": 17925,
+          "pricePerShare": 0,
+          "acquiredDisposedCode": "A"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 17925
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F11"
+          ]
+        },
+        "amounts": {
+          "shares": 450,
+          "pricePerShare": 462.6022,
+          "pricePerShareFootnoteId": [
+            "F12"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 17475
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F11"
+          ]
+        },
+        "amounts": {
+          "shares": 1400,
+          "pricePerShare": 463.4821,
+          "pricePerShareFootnoteId": [
+            "F13"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 16075
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F11"
+          ]
+        },
+        "amounts": {
+          "shares": 3760,
+          "pricePerShare": 464.5442,
+          "pricePerShareFootnoteId": [
+            "F14"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 12315
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F11"
+          ]
+        },
+        "amounts": {
+          "shares": 1785,
+          "pricePerShare": 465.3835,
+          "pricePerShareFootnoteId": [
+            "F15"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 10530
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F11"
+          ]
+        },
+        "amounts": {
+          "shares": 3994,
+          "pricePerShare": 466.5307,
+          "pricePerShareFootnoteId": [
+            "F16"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 6536
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F11"
+          ]
+        },
+        "amounts": {
+          "shares": 4979,
+          "pricePerShare": 467.5028,
+          "pricePerShareFootnoteId": [
+            "F17"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 1557
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F11"
+          ]
+        },
+        "amounts": {
+          "shares": 1557,
+          "pricePerShare": 468.3497,
+          "pricePerShareFootnoteId": [
+            "F18"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 0
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F19"
+          ]
+        },
+        "amounts": {
+          "shares": 250,
+          "pricePerShare": 463.265,
+          "pricePerShareFootnoteId": [
+            "F20"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 322671
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Advocacy",
+          "natureOfOwnershipFootnoteId": [
+            "F21"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F19"
+          ]
+        },
+        "amounts": {
+          "shares": 450,
+          "pricePerShare": 464.3933,
+          "pricePerShareFootnoteId": [
+            "F22"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 322221
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Advocacy",
+          "natureOfOwnershipFootnoteId": [
+            "F21"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F19"
+          ]
+        },
+        "amounts": {
+          "shares": 675,
+          "pricePerShare": 465.2133,
+          "pricePerShareFootnoteId": [
+            "F23"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 321546
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Advocacy",
+          "natureOfOwnershipFootnoteId": [
+            "F21"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F19"
+          ]
+        },
+        "amounts": {
+          "shares": 350,
+          "pricePerShare": 466.3679,
+          "pricePerShareFootnoteId": [
+            "F24"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 321196
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Advocacy",
+          "natureOfOwnershipFootnoteId": [
+            "F21"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F19"
+          ]
+        },
+        "amounts": {
+          "shares": 1020,
+          "pricePerShare": 467.5839,
+          "pricePerShareFootnoteId": [
+            "F25"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 320176
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Advocacy",
+          "natureOfOwnershipFootnoteId": [
+            "F21"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F19"
+          ]
+        },
+        "amounts": {
+          "shares": 160,
+          "pricePerShare": 468.6044,
+          "pricePerShareFootnoteId": [
+            "F26"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 320016
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Advocacy",
+          "natureOfOwnershipFootnoteId": [
+            "F21"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "C",
+          "equitySwapInvolved": false
+        },
+        "amounts": {
+          "shares": 31493,
+          "pricePerShare": 0,
+          "acquiredDisposedCode": "A"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 31493
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F28"
+          ]
+        },
+        "amounts": {
+          "shares": 800,
+          "pricePerShare": 462.5363,
+          "pricePerShareFootnoteId": [
+            "F29"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 30693
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F28"
+          ]
+        },
+        "amounts": {
+          "shares": 2911,
+          "pricePerShare": 463.5797,
+          "pricePerShareFootnoteId": [
+            "F30"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 27782
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F28"
+          ]
+        },
+        "amounts": {
+          "shares": 6792,
+          "pricePerShare": 464.5857,
+          "pricePerShareFootnoteId": [
+            "F31"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 20990
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F28"
+          ]
+        },
+        "amounts": {
+          "shares": 3920,
+          "pricePerShare": 465.5042,
+          "pricePerShareFootnoteId": [
+            "F32"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 17070
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F28"
+          ]
+        },
+        "amounts": {
+          "shares": 6108,
+          "pricePerShare": 466.6699,
+          "pricePerShareFootnoteId": [
+            "F33"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 10962
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F28"
+          ]
+        },
+        "amounts": {
+          "shares": 8912,
+          "pricePerShare": 467.5664,
+          "pricePerShareFootnoteId": [
+            "F34"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 2050
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class A Common Stock",
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "S",
+          "equitySwapInvolved": false,
+          "footnoteId": [
+            "F28"
+          ]
+        },
+        "amounts": {
+          "shares": 2050,
+          "pricePerShare": 468.478,
+          "pricePerShareFootnoteId": [
+            "F35"
+          ],
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 0
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      }
+    ]
+  },
+  "derivativeTable": {
+    "transactions": [
+      {
+        "securityTitle": "Class B Common Stock",
+        "securityTitleFootnoteId": [
+          "F36"
+        ],
+        "conversionOrExercisePriceFootnoteId": [
+          "F36"
+        ],
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "C",
+          "equitySwapInvolved": false
+        },
+        "exerciseDateFootnoteId": [
+          "F36"
+        ],
+        "expirationDateFootnoteId": [
+          "F36"
+        ],
+        "underlyingSecurity": {
+          "title": "Class A Common Stock",
+          "shares": 44770
+        },
+        "amounts": {
+          "shares": 44770,
+          "pricePerShare": 0,
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 819706
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Initiative Foundation",
+          "natureOfOwnershipFootnoteId": [
+            "F1"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class B Common Stock",
+        "securityTitleFootnoteId": [
+          "F36"
+        ],
+        "conversionOrExercisePriceFootnoteId": [
+          "F36"
+        ],
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "C",
+          "equitySwapInvolved": false
+        },
+        "exerciseDateFootnoteId": [
+          "F36"
+        ],
+        "expirationDateFootnoteId": [
+          "F36"
+        ],
+        "underlyingSecurity": {
+          "title": "Class A Common Stock",
+          "shares": 17925
+        },
+        "amounts": {
+          "shares": 17925,
+          "pricePerShare": 0,
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 3716141
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Mark Zuckerberg, Trustee Of The Mark Zuckerberg Trust Dated July 7, 2006",
+          "natureOfOwnershipFootnoteId": [
+            "F10"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class B Common Stock",
+        "securityTitleFootnoteId": [
+          "F36"
+        ],
+        "conversionOrExercisePriceFootnoteId": [
+          "F36"
+        ],
+        "transactionDate": "2024-02-21",
+        "coding": {
+          "formType": "4",
+          "code": "C",
+          "equitySwapInvolved": false
+        },
+        "exerciseDateFootnoteId": [
+          "F36"
+        ],
+        "expirationDateFootnoteId": [
+          "F36"
+        ],
+        "underlyingSecurity": {
+          "title": "Class A Common Stock",
+          "shares": 31493
+        },
+        "amounts": {
+          "shares": 31493,
+          "pricePerShare": 0,
+          "acquiredDisposedCode": "D"
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 295633082
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F27"
+          ]
+        }
+      }
+    ],
+    "holdings": [
+      {
+        "securityTitle": "Class B Common Stock",
+        "securityTitleFootnoteId": [
+          "F36"
+        ],
+        "conversionOrExercisePriceFootnoteId": [
+          "F36"
+        ],
+        "coding": {},
+        "exerciseDateFootnoteId": [
+          "F36"
+        ],
+        "expirationDateFootnoteId": [
+          "F36"
+        ],
+        "underlyingSecurity": {
+          "title": "Class A Common Stock",
+          "shares": 34344500
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 34344500
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By Chan Zuckerberg Holdings LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F37"
+          ]
+        }
+      },
+      {
+        "securityTitle": "Class B Common Stock",
+        "securityTitleFootnoteId": [
+          "F36"
+        ],
+        "conversionOrExercisePriceFootnoteId": [
+          "F36"
+        ],
+        "coding": {},
+        "exerciseDateFootnoteId": [
+          "F36"
+        ],
+        "expirationDateFootnoteId": [
+          "F36"
+        ],
+        "underlyingSecurity": {
+          "title": "Class A Common Stock",
+          "shares": 12000000
+        },
+        "postTransactionAmounts": {
+          "sharesOwnedFollowingTransaction": 12000000
+        },
+        "ownershipNature": {
+          "directOrIndirectOwnership": "I",
+          "natureOfOwnership": "By CZI Holdings I, LLC",
+          "natureOfOwnershipFootnoteId": [
+            "F38"
+          ]
+        }
+      }
+    ]
+  },
+  "footnotes": [
+    {
+      "id": "F1",
+      "text": "Shares held of record by the Chan Zuckerberg Initiative Foundation (\"CZI Foundation\"). The reporting person is deemed to have voting and investment power over the shares held by CZI Foundation, but has no pecuniary interest in these shares."
+    },
+    {
+      "id": "F2",
+      "text": "The sales reported were effected by the CZI Foundation pursuant to the Rule 10b5-1 trading plan adopted by the reporting person on July 31, 2023."
+    },
+    {
+      "id": "F3",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $461.91 to $462.88 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F4",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $462.995 to $463.99 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F5",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $464.03 to $465.015 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F6",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $465.055 to $466.03 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F7",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $466.06 to $467.05 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F8",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $467.075 to $468.07 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F9",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $468.09 to $468.80 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F10",
+      "text": "Shares held of record by Mark Zuckerberg, Trustee of the Mark Zuckerberg Trust dated July 7, 2006 (\"2006 Trust\")."
+    },
+    {
+      "id": "F11",
+      "text": "The sales reported were effected by Mark Zuckerberg, Trustee of the 2006 Trust pursuant to the Rule 10b5-1 trading plan adopted by the reporting person on July 31, 2023."
+    },
+    {
+      "id": "F12",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $462.00 to $462.98 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F13",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $463.00 to $463.99 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F14",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $464.00 to $464.98 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F15",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $465.00 to $465.935 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F16",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $466.00 to $466.98 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F17",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $467.03 to $468.02 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F18",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $468.06 to $468.74 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F19",
+      "text": "The sales reported were effected by Chan Zuckerberg Initiative Advocacy (\"CZI Advocacy\") pursuant to the Rule 10b5-1 trading plan adopted by the reporting person on July 31, 2023."
+    },
+    {
+      "id": "F20",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $462.76 to $463.72 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F21",
+      "text": "Shares held of record by CZI Advocacy. The reporting person is deemed to have voting and investment power over the shares held by CZI Advocacy, but has no pecuniary interest in these shares."
+    },
+    {
+      "id": "F22",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $463.79 to $464.75 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F23",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $464.83 to $465.645 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F24",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $465.995 to $466.89 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F25",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $467.12 to $468.035 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F26",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $468.17 to $468.72 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F27",
+      "text": "Shares held of record by CZI Holdings, LLC (\"CZI\"). Mark Zuckerberg, Trustee of the 2006 Trust, is the sole member of CZI. The reporting person is the sole trustee of the 2006 Trust and, therefore, is deemed to have sole voting and investment power over the securities held by CZI."
+    },
+    {
+      "id": "F28",
+      "text": "The sales reported were effected by CZI pursuant to the Rule 10b5-1 trading plan adopted by the reporting person on July 31, 2023."
+    },
+    {
+      "id": "F29",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $461.92 to $462.84 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F30",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $463.02 to $464.015 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F31",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $464.09 to $465.07 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F32",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $465.09 to $466.02 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F33",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $466.10 to $467.085 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F34",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $467.10 to $468.09 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F35",
+      "text": "The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $468.10 to $468.745 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+    },
+    {
+      "id": "F36",
+      "text": "The Class B Common Stock is convertible into the issuer's Class A Common Stock on a 1-for-1 basis (a) at the holder's option or (b) upon certain transfers of such shares and has no expiration date."
+    },
+    {
+      "id": "F37",
+      "text": "Shares held of record by Chan Zuckerberg Holdings LLC (\"CZ Holdings\"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings."
+    },
+    {
+      "id": "F38",
+      "text": "Shares held of record by CZI Holdings I, LLC (\"CZI I\"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZI I."
+    }
+  ],
+  "ownerSignatureName": "/s/ Erin Guldiken, attorney-in-fact for Mark Zuckerberg",
+  "ownerSignatureNameDate": "2024-02-21"
+}

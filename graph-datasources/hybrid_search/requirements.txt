@@ -1,0 +1,13 @@
+llama-index-core
+llama-index-utils-workflow
+llama-index-vector-stores-milvus
+llama-index-graph-stores-memgraph
+python-dotenv
+fastapi
+uvicorn[standard]
+pydantic
+pymilvus
+redis
+requests
+
+

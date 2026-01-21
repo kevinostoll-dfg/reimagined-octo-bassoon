@@ -1,0 +1,38 @@
+{
+  "collection_name": "saas_revenue_knowledge",
+  "num_entities": 0,
+  "backup_timestamp": "2026-01-16T16:44:58.398681",
+  "schema": {
+    "fields": [
+      {
+        "name": "id",
+        "type": "21",
+        "params": {
+          "max_length": 65535
+        }
+      },
+      {
+        "name": "doc_id",
+        "type": "21",
+        "params": {
+          "max_length": 65535
+        }
+      },
+      {
+        "name": "text",
+        "type": "21",
+        "params": {
+          "max_length": 65535
+        }
+      },
+      {
+        "name": "embedding",
+        "type": "101",
+        "params": {
+          "dim": 1536
+        }
+      }
+    ]
+  },
+  "exported_entities": 0
+}

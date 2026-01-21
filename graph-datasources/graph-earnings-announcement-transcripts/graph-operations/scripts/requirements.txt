@@ -1,0 +1,6 @@
+# Requirements for graph setup and maintenance scripts
+# Earnings Announcement Transcripts Knowledge Graph
+
+# Graph database client
+GQLAlchemy>=1.8.0
+

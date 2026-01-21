@@ -1,0 +1,54 @@
+# Data Sources Configuration
+
+substack_sources:
+  - name: "Clouded Judgement"
+    url: "https://cloudedjudgement.substack.com"
+    topics:
+      - SaaS Revenue Strategy
+      - ARR Growth
+      - Cloud Software Trends
+    priority: high
+    
+  - name: "Growth Stack Mafia"
+    url: "https://austinhay.substack.com"
+    topics:
+      - SaaS Business Models
+      - Revenue Optimization
+      - Growth Strategy
+    priority: high
+
+blog_sources:
+  - name: "SaaStr"
+    url: "https://www.saastr.com"
+    topics:
+      - SaaS Best Practices
+      - Revenue Metrics
+      - Pricing Models
+    priority: medium
+    
+  - name: "OpenView Blog"
+    url: "https://openviewpartners.com/blog"
+    topics:
+      - Product-Led Growth
+      - SaaS Metrics
+      - Go-to-Market Strategy
+    priority: medium
+
+research_topics:
+  - "ARR growth strategies"
+  - "SaaS pricing models"
+  - "Customer acquisition cost optimization"
+  - "Lifetime value analysis"
+  - "Revenue retention metrics"
+  - "Expansion revenue tactics"
+  - "Multi-product strategy"
+  - "Usage-based pricing"
+  - "Land and expand model"
+  - "Vertical vs horizontal SaaS"
+
+seed_queries:
+  - "What are the top SaaS companies optimizing for ARR growth?"
+  - "How do pricing models differ across SaaS segments?"
+  - "What is the relationship between CAC and LTV in successful SaaS companies?"
+  - "What are emerging trends in SaaS revenue strategy post-2024?"
+  - "How do vertical SaaS companies approach revenue differently?"

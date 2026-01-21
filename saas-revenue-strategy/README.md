@@ -113,10 +113,10 @@ cd saas-revenue-strategy
 pip install -r requirements.txt
 
 # Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys:
-# - NOVITA_API_KEY=<your-key>
-# - TAVILY_API_KEY=<your-key>
+# Create .env file with your API keys:
+# NOVITA_API_KEY=<your-key>
+# TAVILY_API_KEY=<your-key>
+# See QUICKSTART.md for detailed setup instructions
 
 # Start Milvus vector database
 docker-compose up -d
@@ -148,27 +148,31 @@ python main.py
 ### Run Knowledge Mining Agent
 
 ```bash
-# Mine from configured sources
-python agents/knowledge_miner.py
+# Mine from configured sources (via main.py)
+python main.py --mine
+
+# Or use standalone entry point
+python knowledge_miner_main.py
 
 # Mine specific topics
-python agents/knowledge_miner.py --topics "SaaS ARR growth" "pricing models"
+python knowledge_miner_main.py --topics "SaaS ARR growth" "pricing models"
 
 # Mine with custom sources config
-python agents/knowledge_miner.py --sources config/sources.yaml
+python knowledge_miner_main.py --sources config/sources.yaml
 ```
 
 ### Run Query Agent
 
 ```bash
-# Single query
-python agents/query_agent.py "What are the latest trends in SaaS ARR revenue strategies?"
+# Single query (via main.py - recommended)
+python main.py --query "What are the latest trends in SaaS ARR revenue strategies?"
 
-# Interactive mode
-python agents/query_agent.py --interactive
+# Interactive mode (via main.py - recommended)
+python main.py --interactive
 
-# Or use main.py
-python main.py --query "How do companies optimize customer acquisition costs?"
+# Or use standalone entry point
+python query_agent_main.py "What are the latest trends in SaaS ARR revenue strategies?"
+python query_agent_main.py --interactive
 ```
 
 ### Using Main CLI
@@ -190,22 +194,30 @@ python main.py --interactive
 
 ### Backup Vector DB
 ```bash
+# Create timestamped backup (saved to scripts/backups/)
 python scripts/backup_vector_db.py
 
 # Custom output path
 python scripts/backup_vector_db.py --output ./backups/milvus_snapshot.tar.gz
+
+# Verify backup integrity
+python scripts/verify_backup.py --input scripts/backups/milvus_snapshot_YYYYMMDD_HHMMSS.tar.gz
 ```
 
 ### Store in GitHub
 ```bash
 # Compress and commit snapshot
-git add backups/milvus_snapshot.tar.gz
+git add scripts/backups/milvus_snapshot_*.tar.gz
 git commit -m "Update Milvus vector DB snapshot"
 git push origin main
 ```
 
 ### Restore from Snapshot
 ```bash
+# Restore from timestamped backup
+python scripts/restore_vector_db.py --input scripts/backups/milvus_snapshot_YYYYMMDD_HHMMSS.tar.gz
+
+# Or from custom path
 python scripts/restore_vector_db.py --input ./backups/milvus_snapshot.tar.gz
 ```
 
@@ -266,25 +278,38 @@ python scripts/restore_vector_db.py --input ./backups/milvus_snapshot.tar.gz
 
 ```
 saas-revenue-strategy/
-├── agents/
+├── agents/                      # Core agent implementations
+│   ├── __init__.py             # Package initialization
 │   ├── knowledge_miner.py      # Mining agent logic
-│   └── query_agent.py           # Query & research agent
-├── scripts/
-│   ├── setup_milvus.py          # Vector DB initialization
-│   ├── backup_vector_db.py      # Backup utilities
-│   ├── restore_vector_db.py     # Restore from snapshot
-│   └── verify_setup.py          # Setup verification
-├── config/
-│   ├── agents.yaml              # Agent parameters
-│   └── sources.yaml             # Data sources config
-├── backups/
-│   └── milvus_snapshot.tar.gz   # Vector DB snapshot (versioned in Git)
+│   ├── query_agent.py          # Query & research agent
+│   ├── novita_embedding.py     # Novita embedding wrapper
+│   └── logging_utils.py        # Logging utilities
+├── scripts/                     # Utility scripts
+│   ├── __init__.py             # Package initialization
+│   ├── setup_milvus.py         # Vector DB initialization
+│   ├── backup_vector_db.py     # Backup utilities
+│   ├── restore_vector_db.py    # Restore from snapshot
+│   ├── verify_setup.py         # Setup verification
+│   ├── verify_backup.py        # Backup verification
+│   └── backups/                # Backup storage
+│       └── milvus_snapshot_*.tar.gz  # Timestamped backups
+├── config/                      # Configuration files
+│   ├── agents.yaml             # Agent parameters
+│   └── sources.yaml            # Data sources config
+├── backups/                     # Vector DB backups directory
+│   └── .gitkeep                # Directory placeholder
 ├── docker-compose.yml           # Milvus + dependencies
 ├── requirements.txt             # Python dependencies
-├── .env.example                 # Environment template
 ├── .env                         # Your environment (gitignored)
-├── main.py                      # CLI entry point
-└── README.md                    # This file
+├── main.py                      # Main CLI entry point
+├── knowledge_miner_main.py      # Standalone mining entry point
+├── query_agent_main.py          # Standalone query entry point
+├── novita_docs.txt             # Novita API documentation
+├── README.md                    # This file
+├── QUICKSTART.md               # Quick start guide
+├── PROJECT_STRUCTURE.md        # Detailed project structure
+├── CONTRIBUTING.md             # Contribution guidelines
+└── LICENSE                      # MIT License
 ```
 
 ---
@@ -292,9 +317,10 @@ saas-revenue-strategy/
 ## 🧠 Technical Highlights
 
 ### Hybrid Vector Search
-- **Dense Embeddings:** Semantic similarity via Qwen embeddings
+- **Dense Embeddings:** Semantic similarity via Qwen embeddings (Novita API)
 - **Sparse Embeddings:** Keyword-based BM25 matching
 - **Combined:** Retrieves most relevant + most keyword-matching documents
+- **Custom Embedding Wrapper:** `NovitaEmbedding` class for OpenAI-compatible API integration
 
 ### Extended Thinking
 - QwenMax models use internal reasoning before generating answers
@@ -305,6 +331,13 @@ saas-revenue-strategy/
 - Versioned vector database snapshots in GitHub
 - Deterministic embedding generation
 - Full configuration in version control
+- Backup verification utilities for data integrity
+
+### Logging & Observability
+- Structured logging with payload tracking
+- Configurable log levels via environment variables
+- Secret redaction for security
+- Comprehensive error tracking
 
 ---
 
@@ -328,51 +361,82 @@ saas-revenue-strategy/
 
 ### For Knowledge Researchers
 1. Configure knowledge sources in `config/sources.yaml`
-2. Run mining agent daily/weekly to keep knowledge fresh
+2. Run mining agent daily/weekly to keep knowledge fresh:
+   ```bash
+   python main.py --mine
+   # or
+   python knowledge_miner_main.py
+   ```
 3. Monitor vector DB size and performance
-4. Backup vector DB to GitHub periodically
+4. Backup vector DB periodically:
+   ```bash
+   python scripts/backup_vector_db.py
+   ```
+5. Commit backups to GitHub for version control
 
 ### For Query Users
-1. Ask complex questions via CLI
+1. Start interactive mode or run single queries:
+   ```bash
+   python main.py --interactive
+   # or
+   python main.py --query "Your question here"
+   ```
 2. Receive researched, reasoning-based answers
 3. Get citations to source documents
-4. Export results in multiple formats
+4. Continue conversation in interactive mode for follow-up questions
 
 ---
 
 ## 📦 Dependencies Overview
 
 ```yaml
-Core:
+Core RAG Framework:
   - llama-index>=0.10.0
+  - llama-index-core>=0.10.0
+  - llama-index-llms-openai>=0.1.0
+  - llama-index-llms-openai-like
+  - llama-index-embeddings-openai>=0.1.0
+  - llama-index-vector-stores-milvus>=0.1.0
+  
+Vector Database:
   - pymilvus>=2.4.0
   
 LLM/Embeddings:
-  - openai>=1.0.0  # OpenAI-compatible API
+  - openai>=1.0.0  # OpenAI-compatible API (Novita)
   
-Tools:
-  - tavily-python>=0.3.0  # Web research
+Web Research:
+  - tavily-python>=0.3.0
   
 Infrastructure:
   - docker
   - docker-compose
   
 Utilities:
-  - python-dotenv
-  - pyyaml
-  - rich
-  - click
+  - python-dotenv>=1.0.0
+  - pyyaml>=6.0.0
+  - requests>=2.31.0
+  - beautifulsoup4>=4.12.0
+  - lxml>=4.9.0
+  
+CLI and Display:
+  - rich>=13.0.0
+  - click>=8.1.0
+  
+Type Hints:
+  - typing-extensions>=4.0.0
 ```
 
 ---
 
 ## 🚨 Important Notes
 
-- **API Keys:** Store securely in `.env` (never commit)
-- **Docker Required:** Milvus runs in Docker (must be installed)
+- **API Keys:** Store securely in `.env` (never commit to version control)
+- **Docker Required:** Milvus runs in Docker (must be installed and running)
 - **Rate Limits:** Be mindful of API rate limits for Novita and Tavily
 - **Initial Mining:** First knowledge mine may take time depending on source volume
 - **Vector DB Size:** Monitor local storage for vector snapshots
+- **Backup Location:** Backups are stored in `scripts/backups/` with timestamps
+- **Entry Points:** Use `main.py` for unified CLI, or standalone scripts for direct access
 
 ---
 
@@ -462,8 +526,15 @@ MIT License - See LICENSE file for details
 For issues, questions, or feature requests, please open a GitHub issue with:
 - **Clear description** of the problem/request
 - **Steps to reproduce** (if applicable)
-- **Your environment** (Python version, OS)
+- **Your environment** (Python version, OS, Docker version)
 - **Expected vs. actual behavior**
+- **Logs** (with sensitive information redacted)
+
+### Additional Resources
+
+- **Quick Start Guide:** See [QUICKSTART.md](QUICKSTART.md) for step-by-step setup
+- **Project Structure:** See [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) for detailed architecture
+- **Contributing:** See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines
 
 ---
 
